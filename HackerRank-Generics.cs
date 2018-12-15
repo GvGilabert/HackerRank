@@ -18,7 +18,7 @@ using System;
 class Printer
 {
     public static void PrintArray<T>(T[] print)
-    {
+    { 
         foreach (var item in print)
         {
             Console.WriteLine(item);
